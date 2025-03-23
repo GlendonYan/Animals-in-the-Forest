@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find the Animals in the Forest</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Find the Animals in the Forest</h1>
+    <div id="forest">
+      <!-- Forest image with hidden animals -->
+      <img src="forest.jpg" alt="Forest Background" class="forest-image">
+      <!-- Hidden animal spots -->
+      <div class="animal-spot" id="spot1"></div>
+      <div class="animal-spot" id="spot2"></div>
+      <div class="animal-spot" id="spot3"></div>
+      <div class="animal-spot" id="spot4"></div>
+      <div class="animal-spot" id="spot5"></div>
+    </div>
+    <div id="score">
+      <p>Animals Found: <span id="points">0</span>/5</p>
+    </div>
+    <div id="win-message" class="hidden">
+      <h2>Congratulations! You found all the animals!</h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
